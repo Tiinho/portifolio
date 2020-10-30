@@ -164,7 +164,88 @@ main {
   margin-top: 0;
 }
 
-@media (max-width: 785px) {
+.projetos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projeto {
+  width: 392px;
+  padding: 24px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 12px;
+}
+
+.projeto h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.projeto p {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.projeto a {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 8px 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.projeto img {
+  width: 100%;
+  height: 220px;
+}
+
+a {
+  text-decoration: none;
+  background-color: #0e76a8 ;
+  color: white;
+  padding: 8px 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.git {
+  background-color: black;
+}
+
+.redes {
+  width: 200px;
+}
+
+.redes img {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.redes li {
+  display: flex;
+  margin-top: 24px;
+}
+
+footer {
+  background-color: red;
+  color: white;
+  padding: 57.6px;
+  text-align: center;
+  font-family: "Open sans", sans-serif;
+  font-weight: bold;
+}
+
+@media (max-width: 1300px) {
   .titulares {
     display: flex;
   }
