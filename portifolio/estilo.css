@@ -163,3 +163,9 @@ main {
 .habilidade li:first-child {
   margin-top: 0;
 }
+
+@media (max-width: 785px) {
+  .titulares {
+    display: flex;
+  }
+}
